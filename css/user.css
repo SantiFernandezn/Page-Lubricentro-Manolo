@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    height: 100vh;
+
+    margin: auto;
+    padding: 100px;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url('/assets/user.jpg');
+
+    color: #fff;
+}
+
+.formulario {
+    width: 80%;
+    height: auto;
+
+    padding: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.contact_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 80%;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}

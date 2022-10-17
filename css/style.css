@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
+
+    box-shadow: 0px 0px 80px #000;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    margin: auto;
+
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+    font-size: 32px;
+}
+
+.container__header {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+}
+
+.container__nav {
+    height: 100%;
+    display: flex;
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+}
+
+.header__links {
+    text-decoration: none;
+    color: #000;
+
+    padding: 0px 8px;
+
+    font-size: 16px;
+}
+
+.header__links span {
+    font-size: 16px;
+}
+
+
+.section {
+    width: 95%;
+    height: 100%;
+}
+
+.container__section {
+    width: 100%;
+    height: 500px;
+
+    background-image: url('/assets/foto21.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    gap: 32px;
+}
+
+.section__tittle {
+    font-size: 58px;
+}
+
+.botton {
+    width: 250px;
+    height: 50px;
+
+    background-color: #EB9E19;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+}
+
+.botton:hover {
+    background-color: #EB9E07;
+}
+
+.section__paragraph {
+    text-align: center;
+
+    color: #fff;
+}
+
+
+/* SECTION 2 -- CARDS */
+.section2 {
+    margin: 32px auto;
+    width: 95%;
+    height: 100%;
+}
+
+.container__section2 {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.go-whatsapp {
+    width: 100%;
+    text-decoration: none;
+    margin: 12px;
+}
+
+.section2__tittle {
+    text-align: center;
+    font-family: 'Be Vietnam Pro';
+    margin-bottom: 32px;
+}
+
+.section2__services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: auto;
+}
+
+.services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2__items {
+    display: flex;
+}
+
+.items__paragraph {
+    margin: auto 12px;
+    font-size: 18px;
+}
+
+.section2__img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+/* SOCIAL SECTION 3 */
+.section3 {
+    width: 95%;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+iframe {
+    width: 50%;
+    height: 90%;
+}
+
+.social {
+    width: 50%;
+    height: 90%;
+
+    margin-left: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials_icons {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 16px;
+}
+
+.socials_icons a img{
+    width: 60px;
+    height: 60px;
+
+    margin-left: 16px;
+}
+
+/* PROMOS SECTION */
+
+.container__promos {
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 12px;
+}
+
+.item {
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.item1 {
+    color: #000;
+}
+.item2 {
+    color: #000;
+}
+.item3 {
+    color: #000;
+}
+.item4 {
+   color: #000;
+}
+.item5 {
+    color: #000;
+}
+.item6 {
+    color: #000;
+}
+.item7 {
+   color: #000;
+}
+.item8 {
+    color: #000;
+}
+.item9 {
+    color: #000;
+}
+.item10 {
+    color: #000;
+}
+
+.item__img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item__link {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.item__tittle {
+    font-size: 12px;
+    text-align: center;
+}
+
+.item__price {
+    text-align: center;
+}
+
+.item__button {
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    width: 95%;
+    height: 80px;
+    margin: 0px auto;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__tittle {
+    margin: 16px auto;
+    color: #fff;
+}
